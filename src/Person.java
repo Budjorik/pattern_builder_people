@@ -63,7 +63,7 @@ public class Person {
     public PersonBuilder newChildBuilder() throws IllegalArgumentException {
         return new PersonBuilder()
             .setSurname(surname)
-            .setAge(5)
+            .setAge(0)
             .setAddress(city);
     }
 

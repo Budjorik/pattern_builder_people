@@ -5,7 +5,7 @@ public class PersonBuilder {
     private String surname;
     private OptionalInt age;
     private String city;
-    Person person = new Person();
+    private Person person = new Person();
 
     public PersonBuilder setName(String name) {
         person.name = name;
